@@ -1,0 +1,243 @@
+body {
+    background-color:rgb(205, 243, 255);
+    color:rgb(0, 0, 0)
+
+    
+}
+
+
+.big_div {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+   
+}
+
+.big_index {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction:column;
+    align-items:center;
+    justify-content:center;
+}
+
+.brukere_index {
+    width: 350px;
+    height:100%;
+    background-color:azure;
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items:center ;
+    margin-bottom: 50px;
+
+}
+
+.profilbilde_index{
+    height:50px;
+    width:50px;
+    border-radius:50%;
+}
+
+
+.profildiv {
+    height: 100%;
+    width: 400px;
+    display:flex;
+    flex-direction:column;
+    text-align:center;
+    background-color: rgb(92, 142, 157);
+    border-width: 20px;
+    border-color:white;
+
+
+}
+
+.profilbildediv{
+    background-color:rgb(205, 243, 255);;
+    height:150px;
+    width: 150px;
+    margin-top:20px;
+    margin-left:auto;
+    margin-right:auto;
+    border-radius:50%;
+    display:block;
+    
+}
+
+.profilbilde{
+    height: 80%;
+    width: 80%;
+    margin-left: auto;
+    margin-top: 15px;
+    border-radius: 50%;
+    border:10px rgb(205, 243, 255);;
+    text-align:center;
+    animation: rotation 15s infinite linear;
+
+}
+
+.tekstdiv {
+    text-align:center;
+    background-color:rgb(205, 243, 255);
+    width:auto;
+    margin:auto;
+    height: 100%;
+    margin-bottom: 20px;
+    margin-top: 20px;
+
+}
+
+.innlegg {
+width:500px;
+}
+
+.bilde_div {
+    height: 100%;
+    width: 850px;
+    background-color:rgb(92, 142, 157);
+    margin-left:auto;
+    margin-right:auto;
+    display:block;
+}
+
+
+.bilder {
+    height: 150px;
+    width: 150px;
+    margin-right: 10px;
+    margin-left:10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+  
+}
+
+.upload {
+    text-align:center;
+}
+
+
+
+.img {
+    object-fit:cover;
+}
+
+
+
+.big_index {
+    height:100%;
+    width:100%;
+    display:flex;
+    flex-direction: column;
+}
+
+.overskrift {
+    height:auto;
+    width:100%;
+    background-color:rgb(92, 142, 157);
+    color:aliceblue;
+    text-align:center;
+}
+
+.meny {
+    overflow:hidden;
+    background-color:aliceblue;
+    top:0;
+    width:100%;
+    display:flex;
+    margin-bottom: 40px;
+    overflow: auto;
+    justify-content: center;
+
+}
+.meny a {
+    
+    float:left;
+    text-align: center;
+    display:block;
+    color:#000000;
+    padding: 14px 16px;
+}
+.meny a:hover {
+    background-color: rgb(180, 216, 227);
+    color:black;
+}
+
+
+.big_index {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.velkommen {
+    height:auto;
+    width:auto;
+
+}
+
+
+
+.big_bildevisning {
+    height:100%;
+    width:100%;
+}
+.bilde {
+    height:400px;
+    width:100%;
+
+}
+.stort_bilde {
+    height:300px;
+    width: 300px;
+    
+}
+
+
+
+
+.big_login {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    text-align:center;
+}
+
+.meduim_login {
+    height: 200px;
+    width:400px;
+    justify-content:center;
+    background-color: #f44336;
+    margin-top:20px ;
+    margin-left:20px;
+    
+   
+}
+
+input[type=text], input[type=password] {
+    width: 30%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+  }
+  
+  /* Set a style for all buttons */
+  input[type=submit] {
+    background-color: rgb(92, 142, 157);;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 30%;
+  }
+  
